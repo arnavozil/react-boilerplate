@@ -5,7 +5,6 @@ export const WarningContext = createContext(null);
 
 const Warning = ({ children }) => {
     
-    let timeoutId;
     const [text, setText] = useState('');
     const [timeId, setTimeId] = useState(undefined);
     const [warningClass, setWarningClass] = useState([s.main]);
