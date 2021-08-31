@@ -1,0 +1,15 @@
+@import "../../sass/animations";
+
+.main{
+    left: 50%;
+    top: 1rem;
+    position: fixed;
+    width: calc(100% - 2rem);
+    background: #f04;
+    border-radius: .25rem;
+    color: white;
+    font-weight: 500;
+    padding: .75rem;
+    transform: translate(-50%, 0);
+    animation: fromTop .5s ease-in forwards;
+}

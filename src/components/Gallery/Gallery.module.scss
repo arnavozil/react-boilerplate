@@ -1,0 +1,13 @@
+@import "../../sass/mixins";
+
+.main{
+    padding: 2rem;
+
+    @include respond(tab-port){
+        padding: 1rem;
+    }
+}
+
+hr{
+    margin: 2rem 0;
+}
